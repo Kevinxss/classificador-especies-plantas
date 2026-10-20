@@ -2,10 +2,11 @@
 
 > **Estado del proyecto:** propuesta (fase de planeación). Aún no hay código ni resultados.
 
-**Materia:** [Computo Paralelo]
-**Institución:** [Unidad profesional interdisiplinaria de ingenerias compus Tlaxcala]
-**Profesor:** [Jesus Garcia]
-**Equipo:** [Equipo classificador-especies-plantas]
+**Materia:** Computo Paralelo \n
+**Institución:** Unidad profesional interdisiplinaria de ingenerias compus Tlaxcala
+**Profesor:** Jesus Garcia \n
+**Equipo:** \n Equipo classificador-especies-plantas
+
 
 ---
 
