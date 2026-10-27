@@ -42,8 +42,13 @@ if __name__ == "__main__":
         print("Imagenes:", cantidad)
         print("Tiempo secuencial:", round(tiempo_secuencial, 4), "segundos")
         print("Tiempo paralelo:", round(tiempo_paralelo, 4), "segundos")
+        
         # Calcular la aceleracion
         speedup = tiempo_secuencial / tiempo_paralelo
 
+        # Calcular la eficiencia
+        eficiencia = (speedup / 4) * 100
+
         print("Speedup:", round(speedup, 2))
+        print("Eficiencia:", round(eficiencia, 2), "%")
         print("---------------------------")
