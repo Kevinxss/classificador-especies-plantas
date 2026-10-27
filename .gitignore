@@ -1,5 +1,9 @@
 # Dataset de PlantVillage
-data/
+data/*
+!data/dataset.csv
+
+# Archivo de respaldo
+particiones_originales.csv
 
 # Entornos virtuales de Python
 .venv/
