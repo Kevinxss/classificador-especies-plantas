@@ -13,7 +13,7 @@ def leer_imagen(ruta):
     ruta = Path(ruta)
     if not ruta.is_absolute():
         ruta = DATA_DIR/ruta
-        img = cv2.imread(str(ruta), cv2.IMREAD_COLOR)
+    img = cv2.imread(str(ruta), cv2.IMREAD_COLOR)
     if img is None:
         raise FileExistsError("No se encontro la imagen")
     return img
