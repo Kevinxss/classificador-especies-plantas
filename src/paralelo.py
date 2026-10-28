@@ -8,7 +8,7 @@ from src.caracteristicas import procesar_imagen
 from src.config import RAIZ
 
 Procesos = 4
-n_imagenes = 200
+n_imagenes = None
 dataset_cvs = RAIZ / "data" / "dataset.csv"
 salida = RAIZ / "data" / "caracteristicas.npy"
 comparar = True
